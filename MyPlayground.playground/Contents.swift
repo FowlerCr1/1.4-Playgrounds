@@ -37,12 +37,14 @@ if thisYear == 2019 {
     print("Im too dumb to do anything without the correct year...")
 }
 
-let dayOfWeek = "Tuesday"
-switch dayOfWeek {
-case "Monday" :
-    print("It's, Monday.")
-case "Tuesday" :
-    print("It's Tuesday")
+//Switch Statement Testing
+let grade = 98
+
+switch grade {
+case 90...100 :
+    print("You have an A")
+case 80...89 :
+    print("You have a B.")
 default:
-    print("It's Sunday")
+    print("You have a different grade.")
 }

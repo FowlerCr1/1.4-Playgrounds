@@ -20,4 +20,10 @@ thisYear - birthYearOfLydiaAndCreighton
 
 1 * 32
 
+let divisionTest: Double = 11
+
+let divisionTests: Double = 5
+
+divisionTest / divisionTests
+
 
